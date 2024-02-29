@@ -54,3 +54,4 @@ jobs:
           SPLIT: ${{ strategy.job-total }}
           SPLIT_INDEX: ${{ strategy.job-index }}
           DEBUG: cypress-split
+          SPEC: cypress/e2e/spec-a.cy.js,cypress/e2e/spec-b.cy.js,cypress/e2e/spec-c.cy.js
